@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54D67F031FB21F7C0048932A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D67F021FB21F7C0048932A /* AppDelegate.swift */; };
+		54D67F051FB21F7C0048932A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D67F041FB21F7C0048932A /* ViewController.swift */; };
+		54D67F081FB21F7C0048932A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D67F061FB21F7C0048932A /* Main.storyboard */; };
+		54D67F0A1FB21F7C0048932A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54D67F091FB21F7C0048932A /* Assets.xcassets */; };
+		54D67F0D1FB21F7C0048932A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D67F0B1FB21F7C0048932A /* LaunchScreen.storyboard */; };
+		54D67F181FB21F7C0048932A /* Sousa_Justin_Memory_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D67F171FB21F7C0048932A /* Sousa_Justin_Memory_GameTests.swift */; };
+		54D67F231FB21F7C0048932A /* Sousa_Justin_Memory_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D67F221FB21F7C0048932A /* Sousa_Justin_Memory_GameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54D67F141FB21F7C0048932A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54D67EF71FB21F7C0048932A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54D67EFE1FB21F7C0048932A;
+			remoteInfo = Sousa_Justin_Memory_Game;
+		};
+		54D67F1F1FB21F7C0048932A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54D67EF71FB21F7C0048932A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54D67EFE1FB21F7C0048932A;
+			remoteInfo = Sousa_Justin_Memory_Game;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54D67EFF1FB21F7C0048932A /* Sousa_Justin_Memory_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sousa_Justin_Memory_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D67F021FB21F7C0048932A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54D67F041FB21F7C0048932A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54D67F071FB21F7C0048932A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54D67F091FB21F7C0048932A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54D67F0C1FB21F7C0048932A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54D67F0E1FB21F7C0048932A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D67F131FB21F7C0048932A /* Sousa_Justin_Memory_GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sousa_Justin_Memory_GameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D67F171FB21F7C0048932A /* Sousa_Justin_Memory_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sousa_Justin_Memory_GameTests.swift; sourceTree = "<group>"; };
+		54D67F191FB21F7C0048932A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D67F1E1FB21F7C0048932A /* Sousa_Justin_Memory_GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sousa_Justin_Memory_GameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D67F221FB21F7C0048932A /* Sousa_Justin_Memory_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sousa_Justin_Memory_GameUITests.swift; sourceTree = "<group>"; };
+		54D67F241FB21F7C0048932A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54D67EFC1FB21F7C0048932A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D67F101FB21F7C0048932A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D67F1B1FB21F7C0048932A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54D67EF61FB21F7C0048932A = {
+			isa = PBXGroup;
+			children = (
+				54D67F011FB21F7C0048932A /* Sousa_Justin_Memory_Game */,
+				54D67F161FB21F7C0048932A /* Sousa_Justin_Memory_GameTests */,
+				54D67F211FB21F7C0048932A /* Sousa_Justin_Memory_GameUITests */,
+				54D67F001FB21F7C0048932A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54D67F001FB21F7C0048932A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54D67EFF1FB21F7C0048932A /* Sousa_Justin_Memory_Game.app */,
+				54D67F131FB21F7C0048932A /* Sousa_Justin_Memory_GameTests.xctest */,
+				54D67F1E1FB21F7C0048932A /* Sousa_Justin_Memory_GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54D67F011FB21F7C0048932A /* Sousa_Justin_Memory_Game */ = {
+			isa = PBXGroup;
+			children = (
+				54D67F021FB21F7C0048932A /* AppDelegate.swift */,
+				54D67F041FB21F7C0048932A /* ViewController.swift */,
+				54D67F061FB21F7C0048932A /* Main.storyboard */,
+				54D67F091FB21F7C0048932A /* Assets.xcassets */,
+				54D67F0B1FB21F7C0048932A /* LaunchScreen.storyboard */,
+				54D67F0E1FB21F7C0048932A /* Info.plist */,
+			);
+			path = Sousa_Justin_Memory_Game;
+			sourceTree = "<group>";
+		};
+		54D67F161FB21F7C0048932A /* Sousa_Justin_Memory_GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				54D67F171FB21F7C0048932A /* Sousa_Justin_Memory_GameTests.swift */,
+				54D67F191FB21F7C0048932A /* Info.plist */,
+			);
+			path = Sousa_Justin_Memory_GameTests;
+			sourceTree = "<group>";
+		};
+		54D67F211FB21F7C0048932A /* Sousa_Justin_Memory_GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54D67F221FB21F7C0048932A /* Sousa_Justin_Memory_GameUITests.swift */,
+				54D67F241FB21F7C0048932A /* Info.plist */,
+			);
+			path = Sousa_Justin_Memory_GameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54D67EFE1FB21F7C0048932A /* Sousa_Justin_Memory_Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54D67F271FB21F7C0048932A /* Build configuration list for PBXNativeTarget "Sousa_Justin_Memory_Game" */;
+			buildPhases = (
+				54D67EFB1FB21F7C0048932A /* Sources */,
+				54D67EFC1FB21F7C0048932A /* Frameworks */,
+				54D67EFD1FB21F7C0048932A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sousa_Justin_Memory_Game;
+			productName = Sousa_Justin_Memory_Game;
+			productReference = 54D67EFF1FB21F7C0048932A /* Sousa_Justin_Memory_Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54D67F121FB21F7C0048932A /* Sousa_Justin_Memory_GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54D67F2A1FB21F7C0048932A /* Build configuration list for PBXNativeTarget "Sousa_Justin_Memory_GameTests" */;
+			buildPhases = (
+				54D67F0F1FB21F7C0048932A /* Sources */,
+				54D67F101FB21F7C0048932A /* Frameworks */,
+				54D67F111FB21F7C0048932A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54D67F151FB21F7C0048932A /* PBXTargetDependency */,
+			);
+			name = Sousa_Justin_Memory_GameTests;
+			productName = Sousa_Justin_Memory_GameTests;
+			productReference = 54D67F131FB21F7C0048932A /* Sousa_Justin_Memory_GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54D67F1D1FB21F7C0048932A /* Sousa_Justin_Memory_GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54D67F2D1FB21F7C0048932A /* Build configuration list for PBXNativeTarget "Sousa_Justin_Memory_GameUITests" */;
+			buildPhases = (
+				54D67F1A1FB21F7C0048932A /* Sources */,
+				54D67F1B1FB21F7C0048932A /* Frameworks */,
+				54D67F1C1FB21F7C0048932A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54D67F201FB21F7C0048932A /* PBXTargetDependency */,
+			);
+			name = Sousa_Justin_Memory_GameUITests;
+			productName = Sousa_Justin_Memory_GameUITests;
+			productReference = 54D67F1E1FB21F7C0048932A /* Sousa_Justin_Memory_GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54D67EF71FB21F7C0048932A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Period Three";
+				TargetAttributes = {
+					54D67EFE1FB21F7C0048932A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					54D67F121FB21F7C0048932A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54D67EFE1FB21F7C0048932A;
+					};
+					54D67F1D1FB21F7C0048932A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54D67EFE1FB21F7C0048932A;
+					};
+				};
+			};
+			buildConfigurationList = 54D67EFA1FB21F7C0048932A /* Build configuration list for PBXProject "Sousa_Justin_Memory_Game" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54D67EF61FB21F7C0048932A;
+			productRefGroup = 54D67F001FB21F7C0048932A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54D67EFE1FB21F7C0048932A /* Sousa_Justin_Memory_Game */,
+				54D67F121FB21F7C0048932A /* Sousa_Justin_Memory_GameTests */,
+				54D67F1D1FB21F7C0048932A /* Sousa_Justin_Memory_GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54D67EFD1FB21F7C0048932A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D67F0D1FB21F7C0048932A /* LaunchScreen.storyboard in Resources */,
+				54D67F0A1FB21F7C0048932A /* Assets.xcassets in Resources */,
+				54D67F081FB21F7C0048932A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D67F111FB21F7C0048932A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D67F1C1FB21F7C0048932A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54D67EFB1FB21F7C0048932A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D67F051FB21F7C0048932A /* ViewController.swift in Sources */,
+				54D67F031FB21F7C0048932A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D67F0F1FB21F7C0048932A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D67F181FB21F7C0048932A /* Sousa_Justin_Memory_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D67F1A1FB21F7C0048932A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D67F231FB21F7C0048932A /* Sousa_Justin_Memory_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54D67F151FB21F7C0048932A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54D67EFE1FB21F7C0048932A /* Sousa_Justin_Memory_Game */;
+			targetProxy = 54D67F141FB21F7C0048932A /* PBXContainerItemProxy */;
+		};
+		54D67F201FB21F7C0048932A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54D67EFE1FB21F7C0048932A /* Sousa_Justin_Memory_Game */;
+			targetProxy = 54D67F1F1FB21F7C0048932A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54D67F061FB21F7C0048932A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54D67F071FB21F7C0048932A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54D67F0B1FB21F7C0048932A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54D67F0C1FB21F7C0048932A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54D67F251FB21F7C0048932A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54D67F261FB21F7C0048932A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54D67F281FB21F7C0048932A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sousa_Justin_Memory_Game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sousa.Sousa-Justin-Memory-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54D67F291FB21F7C0048932A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sousa_Justin_Memory_Game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sousa.Sousa-Justin-Memory-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54D67F2B1FB21F7C0048932A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sousa_Justin_Memory_GameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sousa.Sousa-Justin-Memory-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sousa_Justin_Memory_Game.app/Sousa_Justin_Memory_Game";
+			};
+			name = Debug;
+		};
+		54D67F2C1FB21F7C0048932A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sousa_Justin_Memory_GameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sousa.Sousa-Justin-Memory-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sousa_Justin_Memory_Game.app/Sousa_Justin_Memory_Game";
+			};
+			name = Release;
+		};
+		54D67F2E1FB21F7C0048932A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sousa_Justin_Memory_GameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sousa.Sousa-Justin-Memory-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sousa_Justin_Memory_Game;
+			};
+			name = Debug;
+		};
+		54D67F2F1FB21F7C0048932A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sousa_Justin_Memory_GameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sousa.Sousa-Justin-Memory-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sousa_Justin_Memory_Game;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54D67EFA1FB21F7C0048932A /* Build configuration list for PBXProject "Sousa_Justin_Memory_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D67F251FB21F7C0048932A /* Debug */,
+				54D67F261FB21F7C0048932A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54D67F271FB21F7C0048932A /* Build configuration list for PBXNativeTarget "Sousa_Justin_Memory_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D67F281FB21F7C0048932A /* Debug */,
+				54D67F291FB21F7C0048932A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54D67F2A1FB21F7C0048932A /* Build configuration list for PBXNativeTarget "Sousa_Justin_Memory_GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D67F2B1FB21F7C0048932A /* Debug */,
+				54D67F2C1FB21F7C0048932A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54D67F2D1FB21F7C0048932A /* Build configuration list for PBXNativeTarget "Sousa_Justin_Memory_GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D67F2E1FB21F7C0048932A /* Debug */,
+				54D67F2F1FB21F7C0048932A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54D67EF71FB21F7C0048932A /* Project object */;
+}
